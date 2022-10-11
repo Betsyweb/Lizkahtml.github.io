@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="map-body">
+    <section class="map">
+      <div class="container">
+        <div class="map__container">
+          <h2>THE TS EXPO MAP</h2>
+          <div class="map__wrapper">
+            <img src="img/mapbg.svg" alt="map">
+            <div class="map__groups">
+              <div class="map__group map__group-blue map__group-blue-quad">
+                <div><span>M1</span></div>
+                <div><span>M2</span></div>
+                <div class="locked" data-logo="img/logo-avix.svg" data-href="https://avix.ru/"><span>M3</span></div>
+                <!--
+                <div><span>M4</span></div>
+                -->
+              </div>
+              <div class="map__group map__group-blue map__group-blue-double">
+                <!--
+                <div style="margin-bottom: 20px;"><span>M5</span></div>
+                <div><span>M6</span></div>
+                -->
+              </div>
+              <div class="map__group map__group-blue map__group-blue-quad">
+                <div><span>M7</span></div>
+                <div><span>M8</span></div>
+                <!--
+                <div><span>M9</span></div>
+                -->
+                <div><span>M10</span></div>
+              </div>
+              <div class="map__group map__group-blue map__group-blue-quad">
+                <!--
+                <div><span>M11</span></div>
+                <div><span>M12</span></div>
+                <div><span>M13</span></div>
+                <div><span>M14</span></div>
+                -->
+              </div>
+              <div class="map__group map__group-blue map__group-blue-double">
+                <!--
+                <div><span>M15</span></div>
+                -->
+                <div><span>M16</span></div>
+                <div><span>M17</span></div>
+              </div>
+              <div class="map__group map__group-blue map__group-blue-quad">
+                <div><span>M18</span></div>
+                <div><span>M19</span></div>
+                <div><span>M20</span></div>
+                <div><span>M21</span></div>
+              </div>
+              <div class="map__group map__group-red">
+                <div><span>S1</span></div>
+                <div><span>S2</span></div>
+                <div><span>S3</span></div>
+              </div>
+              <div class="map__group map__group-red">
+                <div><span>S4</span></div>
+                <div><span>S5</span></div>
+              </div>
+              <div class="map__group map__group-red">
+                <div><span>S6</span></div>
+                <div><span>S7</span></div>
+                <div><span>S8</span></div>
+                <div><span>S9</span></div>
+                <div><span>S10</span></div>
+                <div><span>S11</span></div>
+                <div><span>S12</span></div>
+                <div><span>S13</span></div>
+              </div>
+              <div class="map__group map__group-red map__group-red-rows" style="max-width: 40px;">
+                <!--
+                <div><span>S14</span></div>
+                <div><span>S16</span></div>
+                <div><span>S15</span></div>
+                <div><span>S17</span></div>
+                -->
+              </div>
+              <div class="map__group map__group-red">
+                <div><span>S18</span></div>
+                <div><span>S19</span></div>
+                <div><span>S20</span></div>
+                <div><span>S21</span></div>
+              </div>
+              <div class="map__group map__group-red">
+                <div><span>S22</span></div>
+                <div><span>S23</span></div>
+              </div>
+              <div class="map__group map__group-red">
+                <div><span>S24</span></div>
+                <div><span>S25</span></div>
+              </div>
+              <div class="map__group map__group-green">
+                <!--
+                <div><span>L1</span></div>
+                -->
+                <div><span>L2</span></div>
+              </div>
+              <div class="map__group map__group-green">
+                <div class="locked" data-logo="img/logo-microsoft.png" data-href="https://www.microsoft.com/ru-ru"><span>L3</span></div>
+                <div><span>L4</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="map__captions">
+          <ul>
+            <li>
+              <p>S</p>
+              <span>SMALL - 2х2 - 4м</span>
+            </li>
+            <li>
+              <p>M</p>
+              <span>MEDIUM - 4х3 - 12м</span>
+            </li>
+            <li>
+              <p>L</p>
+              <span>LARGE - 6х4 - 24м</span>
+            </li>
+          </ul>
+        </div>
+        <div class="map__window hidden">
+          <button type="button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <h2 class="none"></h2>
+          <a href="" target="_blank">
+            <img src="../img/logo-avix.svg" alt="Logo">
+          </a>
+          <p>Stand</p>
+        </div>
+      </div>
+    </section>
+    <div data-popup="#pop-sponsor"></div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
